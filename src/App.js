@@ -23,7 +23,7 @@ function App() {
         <Route path="/" component={Homepage} exact />
         <Route path="/coins/:id" component={CoinPage} exact />
       </div>
-    </BrowserRouter>
+    </BrowserRouter  >
   );
 }
 
